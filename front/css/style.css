@@ -1,4 +1,7 @@
 /* Base */
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.7;
   color: #4d4d4d;
@@ -103,6 +106,9 @@ h1, h2, h3, h4, h5,
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
@@ -112,6 +118,9 @@ h1, h2, h3, h4, h5,
   position: relative;
   font-size: 2.5rem; }
   @media (min-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-section-heading {
       font-size: 4rem; } }
   .site-section-heading:after {
@@ -142,6 +151,9 @@ h1, h2, h3, h4, h5,
   padding: 4em 0;
   background: #333333; }
   @media (min-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-footer {
       padding: 8em 0; } }
   .site-footer .border-top {
@@ -176,6 +188,9 @@ h1, h2, h3, h4, h5,
   overflow: hidden;
   position: relative; }
   @media (max-width: 991.98px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .hover-bg-enlarge {
       height: auto !important; } }
   .hover-bg-enlarge > div {
@@ -190,6 +205,9 @@ h1, h2, h3, h4, h5,
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
   @media (max-width: 991.98px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .hover-bg-enlarge .bg-image-md-height {
       height: 300px !important; } }
 
@@ -215,10 +233,16 @@ h1, h2, h3, h4, h5,
     z-index: 1; }
 
 @media (max-width: 991.98px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .img-md-fluid {
     max-width: 100%; } }
 
 @media (max-width: 991.98px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .display-1, .display-3 {
     font-size: 3rem; } }
 
@@ -570,6 +594,9 @@ h1, h2, h3, h4, h5,
     font-weight: 900;
     color: #fff; }
     @media (max-width: 991.98px) {
+      html {
+        scroll-behavior: smooth;
+      }
       .site-blocks-cover h1 {
         font-size: 2rem; } }
   .site-blocks-cover p {
@@ -586,6 +613,9 @@ h1, h2, h3, h4, h5,
     font-size: 16px;
     line-height: 1.5; }
   @media (max-width: 991.98px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-blocks-cover .display-1 {
       font-size: 3rem; } }
 
@@ -698,6 +728,9 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat;
     height: 300px; }
     @media (min-width: 768px) {
+      html {
+        scroll-behavior: smooth;
+      }
       .podcast-entry .image {
         width: 300px;
         height: auto; } }
@@ -705,6 +738,9 @@ h1, h2, h3, h4, h5,
     width: 100%;
     padding: 40px; }
     @media (min-width: 768px) {
+      html {
+        scroll-behavior: smooth;
+      }
       .podcast-entry .text {
         width: calc(100% - 300px); } }
 
@@ -712,6 +748,9 @@ h1, h2, h3, h4, h5,
   width: 100% !important; }
 
 @media (max-width: 991.98px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .display-4 {
     font-size: 1.8rem; } }
 
@@ -782,6 +821,9 @@ h1, h2, h3, h4, h5,
   padding-top: 3em;
   padding-bottom: 3em; }
   @media (min-width: 992px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-blocks-vs .bg-image {
       padding-top: 5em;
       padding-bottom: 5em; } }
@@ -792,6 +834,9 @@ h1, h2, h3, h4, h5,
   -ms-flex: 0 0 80px;
   flex: 0 0 80px; }
   @media (max-width: 991.98px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .site-blocks-vs .image {
       margin-left: auto !important;
       margin-right: auto !important; } }
@@ -919,6 +964,9 @@ h1, h2, h3, h4, h5,
   text-align: center;
   font-size: 25px; }
   @media (min-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
     .slide-one-item.home-slider .owl-prev, .slide-one-item.home-slider .owl-next {
       font-size: 25px; } }
   .slide-one-item.home-slider .owl-prev > span, .slide-one-item.home-slider .owl-next > span {
@@ -978,9 +1026,15 @@ h1, h2, h3, h4, h5,
       margin-right: 30px;
       position: relative; }
       @media (min-width: 576px) {
+        html {
+          scroll-behavior: smooth;
+        }
         .block-12 .text .text-inner {
           padding: 20px; } }
       @media (min-width: 768px) {
+        html {
+          scroll-behavior: smooth;
+        }
         .block-12 .text .text-inner {
           padding: 30px 40px; } }
       .block-12 .text .text-inner:before {
