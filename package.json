@@ -1,0 +1,21 @@
+{
+    "name": "main",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "6.*"
+    },
+    "resolutions": {
+        "uglifyjs-webpack-plugin": "1.0.0-rc.0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "webpack": "^3.8.1"
+    }
+}
